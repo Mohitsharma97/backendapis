@@ -16,7 +16,7 @@ var knex = require('knex')({
     }
   });
 
- // console.log(knex.select('*').from('users'));
+
 app.use(bodyParser.json());
 app.use(cors());
 
@@ -39,12 +39,7 @@ const database={
             joined:new Date()
          }
 ]
-// ,
-// login:[{
-//     id:'987',
-//     hash:'',
-//     email:'john@gmail.com'
-// }]
+
 }
 
 
